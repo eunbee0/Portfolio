@@ -1,0 +1,403 @@
+@import url("common.css");
+
+
+/* about */
+.about {
+    width: 1560px;
+    margin: 0 auto;
+}
+
+.content1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.c1L {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: NotoSansKR;
+
+}
+
+.c1L h2 {
+    font-size: 500px;
+    color: #0047FF;
+    font-family: NotoSansMalayalam;
+}
+
+.c1L>span {
+
+    border: 1px solid #0047FF;
+
+}
+
+.c1L h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0047FF;
+}
+
+.c1L p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#color {
+    color: #0047FF;
+    font-weight: bold;
+}
+
+.c2L {}
+
+.c2L p {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.c2R {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-family: NotoSansKR;
+}
+
+.c2R h2 {
+    font-size: 500px;
+    color: #0047FF;
+    font-family: NotoSansMalayalam;
+}
+
+.c2R h3 {
+    font-size: 40px;
+    color: #0047FF;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content2-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.content2-text button{
+    outline:none;
+    border:none;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: NotoSansKR;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+}
+button img{
+    margin-right: 10px;
+    text-align: center;
+}
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c3L {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: NotoSansKR;
+}
+
+.c3L h2 {
+    font-size: 500px;
+    color: #0047FF;
+    font-family: NotoSansMalayalam;
+}
+
+.c3L h3 {
+    font-size: 40px;
+    color: #0047FF;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content3-sub {
+    display: flex;
+    font-family: NotoSansKR;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.content3-sub div {
+    position: relative;
+    width: 262px;
+    height: 262px;
+    background: lighten(#ffffff, 10%);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 250px;
+    overflow: hidden;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+
+.content3-sub div:nth-child(1)::after,
+.content3-sub div:nth-child(2)::after,
+.content3-sub div:nth-child(3)::after,
+.content3-sub div:nth-child(4)::after {
+    background-color: #0047FF;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.content3-sub div:nth-child(1):hover::after {
+    height: 70%;
+}
+
+.content3-sub div:nth-child(2):hover::after {
+    height: 30%;
+}
+
+.content3-sub div:nth-child(3):hover:after {
+    height: 90%;
+}
+
+.content3-sub div:nth-child(4):hover::after {
+    height: 70%;
+}
+
+/* --------- */
+
+/* portfolio */
+
+
+.portfolio {
+    width: 1560px;
+    margin: 0 auto;
+    font-family: NotoSansKR;
+
+}
+
+.portfolio h2 {
+    font-size: 100px;
+    color: #0047FF;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.portfolio>span {
+    font-family: NotoSansKR;
+    font-size: 25px;
+    color: #333333;
+    font-weight: 300;
+}
+
+.site a img {
+    box-shadow: 10px 10px 10px rgba(212, 212, 212, 0.827);
+    border-radius: 20px;
+}
+
+.p-content {
+    margin-top: 170px;
+}
+
+.p-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 270px;
+}
+
+.portfolio h3 {
+    font-family: NotoSansKR;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portfolio b {
+
+    font-family: NotoSansMalayalam;
+    font-size: 52px;
+    font-weight: bold;
+}
+.portfolio button{
+    outline:none;
+    border:none;
+    background-color: #0047FF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: NotoSansKR;
+  font-size: 20px;
+  font-weight: 900;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio p {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-family: NotoSansMalayalam;
+    font-size: 16px;
+    color: #333333;
+}
+
+.p-text2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 270px;
+
+}
+
+.p-text3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 270px;
+
+}
+
+
+/* ----------- */
+
+/* contact */
+.contact {
+    width: 1560px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-family: NotoSansKR;
+    font-size: 100px;
+    font-weight: 900;
+    color: #0047FF;
+    margin-bottom: 80px;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub b {
+    color: #0047FF;
+    font-family: NotoSansKR;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sub p {
+    font-family: NotoSansKR;
+    font-size: 26px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.vinyl img:nth-child(1) {
+    position: relative;
+    z-index: 2;
+}
+
+.vinyl img:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    margin-left: -30%;
+    animation: rotate_image 6s linear infinite;
+}
+
+.sub-text{
+    position: relative;
+    left: -10%;
+}
+
+/* ------ */
+
+/* sub */
+
+
+.sub1 img{
+    width: 100%;
+}
+.sub2 img{
+    width: 100%;
+}
+.sub3 img{
+    width: 100%;
+}
+
+/* -------------- */
+
+/* artwork */
+
+.artwork{
+    width: 1560px;
+    margin: 0 auto;
+}
+
+main h2{
+    font-family: NotoSansKR;
+    font-size: 100px;
+    font-weight: 900;
+    color: #0047FF;
+    margin-bottom: 80px;
+}
+.selection_image{
+    margin-top: 15%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection_image p{
+    font-family: NotoSansKR;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+}
+.thumb {
+    width:30%; 
+    height:100%; 
+
+    }
+.selection_image img {
+    width:100%;
+    height:100%;    
+}
+

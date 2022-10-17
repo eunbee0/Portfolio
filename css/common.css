@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    background-color: #F8F8F8;
+
+}
+
+h1,
+h2,
+li,
+ul,
+p,
+b {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    left:0; top:0;
+    text-transform: uppercase;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    z-index: 99;
+    margin-top: 30px;
+
+}
+
+header a {
+    color: black;
+    margin-right: 40px;
+}
+
+.nav>ul {
+    width: 1590px;
+    margin: 0 auto;
+
+}
+
+
+.nav a:hover {
+    text-decoration: line-through;
+    color: #0047FF;
+}
+
+.nav.active {
+    text-decoration: line-through;
+    color: #0047FF;
+}
+
+/* --------- */
+
+/* main */
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url('/img/wave.png');
+}
+
+.maintitle {}
+
+.maintitle>img {
+    width: 1590px;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    margin-top: 311px;
+    margin-bottom: 300px;
+    margin-left: 232px;
+
+}
+
+.lp>img {
+    position: absolute;
+    text-align: left;
+    left: -20%;
+    animation: rotate_image 6s linear infinite;
+
+}
+
+@keyframes rotate_image {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+
+    width: 1590px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: bottom;
+    text-align: right;
+    margin-top: 35%;
+}
+
+.backgroundimg>img {
+    width: 100%;
+}
